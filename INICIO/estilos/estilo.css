@@ -1,0 +1,142 @@
+ 
+body, html {
+ 
+  background-color: black;
+}
+
+
+/* CABEÇALHO */
+
+header{
+    width: 100%;
+    display:flex;
+    position: fixed;
+   background-color: #3d1c00;
+   margin-left: 100%px;
+   top: 0;
+   left: 0;
+   height: 65px;
+ 
+}
+
+.cabeçalho a {
+   text-decoration: none;
+      /* cor quando o Link não visitado */
+    color: yellow;
+   
+   }
+.cabeçalho a :hover{
+    /*COR QUANDO O MOUSE PASSA POR CIMA */
+    color:white;
+  
+}
+
+
+
+#inicio{
+    margin-left: 40% ;
+    color: white;
+    font-size: 22px;
+     /*Link não visitado */
+    color: yellow
+}
+#menu{
+    margin-left: 50px;
+    color: white;
+    font-size: 22px;
+}
+#sobre{
+   margin-left: 50px;
+color: white;
+font-size: 22px;
+}
+#contato{
+    margin-left: 50px;
+    color: white;
+    font-size: 22px;
+}
+
+/*imagem de fundo */
+#fundoimg {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#fundoimg img {
+  width: 50vw;
+  height: auto;
+}
+
+/*logo tipo */
+ #logotipo img{
+  width: 700px;
+  margin-top: 250px;
+  margin-left: 36%; /* MOVE A IMAGEM PARA O MEIO */
+ }
+ 
+ /* ALINHAMENTO DA BOX */
+ #box {
+  margin-top: 200px;
+  margin-left: 500px;
+ }
+ 
+
+ /*CONFIGURAÇÕES DA FONT */
+ #letras{
+  color: white;
+   }
+   #cortes{
+    font-size: 30px;
+    margin-left: 20px;
+    color: #f5da7a;
+   }
+  #ambiente{
+    margin-left: 20px;
+   margin-top: -37px;
+   font-size: 40px;
+  }
+
+  #texto{
+    margin-top: -15px;
+    font-size: 20px;
+  }
+
+  .imagemtxt{
+    margin-left: 35%;
+    margin-top: -700px;
+  }
+  .topo{
+    margin-top: -400px;
+    
+  }
+  .fundo{
+    display: block;
+    margin-right: 30px;
+    margin-top: -300px;
+    margin-left: 200px;
+  }
+
+  /*promoção */
+  .nossapromo{
+    font-size: 70px;
+    margin-left: 300px;
+  }
+  .especialidades{
+    font-size: 35px;
+    margin-left: 550px;
+    margin-top: 10px;
+    color: #f5da7a;
+  }
+  .promotxt{
+    font-size: 20px;
+    margin-left: 540px;
+    margin-top: 5px;
+  }
+
+.carrossel-img {
+  width: 80%;       /* ou 70%, 60%... como quiser */
+  margin: 0 auto;   /* centraliza a imagem */
+  display: block;
+  height: auto;     /* mantém proporção */
+}
