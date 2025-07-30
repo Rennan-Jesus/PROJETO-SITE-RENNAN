@@ -10,7 +10,7 @@ body, html {
 header{
     width: 100%;
     display:flex;
-    position: fixed;
+ 
    background-color: #3d1c00;
    margin-left: 100%px;
    top: 0;
@@ -64,7 +64,7 @@ font-size: 22px;
 }
 
 #fundoimg img {
-  width: 50vw;
+  width: 60vw;
   height: auto;
 }
 
@@ -139,4 +139,95 @@ font-size: 22px;
   margin: 0 auto;   /* centraliza a imagem */
   display: block;
   height: auto;     /* mantém proporção */
+}
+
+/*imagens de baixo d carrosel */
+.imagemboi{
+  margin-left: 100px;
+  
+}
+.tempero{
+margin-left: 100px;
+width: 430PX;
+}
+.angus{
+width: 22%;
+}
+.textoboi{
+  font-style: normal;
+  display: flex;
+  margin-left: 170px;
+  margin-top: -300px;
+}
+.boi{
+color: white;
+margin-left: 100px;
+font-size: 55px;
+
+}
+.temp{
+color: white;
+margin-left: 350px;
+font-size: 55px;
+}
+
+.secret{
+  display: flex;
+  margin-top: -100px;
+}
+.linha{
+color: white;
+margin-top: 100px;
+margin-left: 300px;
+font-size: 20px
+}
+.secreto{
+color: white;
+margin-top: 100px;
+font-size: 27px;
+margin-left: 440px;
+}
+
+.colorone{
+background-color: #fcb653;
+width: 750px;
+height: 200px;
+ margin: 0 auto;
+ margin-left: 70%;
+ margin-top: -50px;
+}
+.colortwo{
+  background-color:#3d1c00;
+  width: 750px;
+  margin: 0 auto;
+  margin-left: 70%;
+  margin-top: -50px;
+}
+
+.endereco{
+margin-left: 50%;
+
+margin-top: -180px;
+}
+.endere{
+color: white;
+
+}
+.rua{
+color: white;
+ 
+}
+.atendimento{
+margin-left: 50%;
+
+margin-top: 70px;
+
+}
+.atendi{
+color: white;
+ 
+}
+.horario{
+color: white; 
+
 }
